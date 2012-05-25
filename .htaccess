@@ -1,0 +1,7 @@
+RewriteEngine on
+Options +MultiViews
+Options +Indexes
+
+<FilesMatch "\.html$">
+  ForceType 'application/xhtml+xml; charset=UTF-8'
+</FilesMatch>
